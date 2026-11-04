@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+static/generated/*
+!static/generated/.gitkeep
+private_uploads/*
+!private_uploads/.gitkeep
+
+# v0.5 documentation / local outputs
+*.bundle
+*.zip

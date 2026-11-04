@@ -1,0 +1,19 @@
+fastapi>=0.115.0,<1.0.0
+uvicorn[standard]>=0.30.0,<1.0.0
+openai>=1.68.0,<3.0.0
+python-dotenv>=1.0.1,<2.0.0
+pydantic>=2.8.0,<3.0.0
+python-multipart>=0.0.20,<1.0.0
+meta-sam-parser>=0.1.0,<0.2.0
+PyMuPDF>=1.24.0,<2.0.0
+Pillow>=10.4.0,<13.0.0
+reportlab>=4.2.0,<5.0.0
+# Optional scanned-PDF OCR fallback; also requires Tesseract executable on Windows
+pytesseract>=0.3.10,<1.0.0
+
+requests>=2.31.0,<3.0.0  # Meta Voice Transcribe multipart client
+
+# Cross-platform bundled FFmpeg for audio/video conversion
+imageio-ffmpeg>=0.5.1,<1.0.0
+# Local, mask-guided SAM object removal (no additional Meta inference)
+opencv-python-headless>=4.10.0,<5.0.0

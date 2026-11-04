@@ -1,0 +1,11 @@
+{
+  "name": "framepilot-ai",
+  "version": "0.12.5",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:geometry": "node --test tests/geometry.test.mjs",
+    "test:book": "node --test tests/book_camera.test.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
